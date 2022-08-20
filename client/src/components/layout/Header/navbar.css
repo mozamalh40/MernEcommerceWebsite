@@ -1,0 +1,266 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 2rem;
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
+
+  
+
+}
+
+nav a{
+    margin: 0 2rem;
+    color: #eee;
+    font: cursive;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.text:hover{
+    /* border: 1px solid #3586ff; */
+    padding: 0.8vmax;
+    border-radius: 20px;
+    background:tomato;
+
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+  
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+.navSerch{
+    position: absolute;
+    right: 0;
+    margin: 1.4vmax 4vmax;
+    font-size: 1.5rem;
+
+}
+
+.navHeart{
+    position: absolute;
+    right: 10rem;
+    margin: 1vmax 4vmax;
+    font-size: 1.5rem;
+
+}
+.navLogin{
+    position: absolute;
+    right: 0;
+    margin: 1vmax 7vmax;  
+    font-size: 2rem;
+      
+}
+.navCart{
+    position: absolute;
+    right: 0;
+    margin: 0.3vmax 11vmax;  
+    font-size: 2rem; 
+}
+.navSerch:hover{
+    color: tomato;
+}
+.navCart:hover{
+   color: tomato;
+}
+.navLogin:hover{
+   color: tomato;
+}
+.navHeart:hover{
+       color: tomato;
+}
+
+@media only screen and (max-width:912px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: rgb(245, 91, 91);
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1000;
+
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn{
+      position: absolute;
+      top: 2rem;right: 2rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    .text{
+        top: 30px;
+    }
+    .text:hover{
+        /* border: 1px solid #3586ff; */
+        padding: 1vmax;
+        border-radius: 20px;
+        background-color: tomato;
+    }
+    .navSerch{
+        position: absolute;
+        top: 2.1rem;right: 5rem;
+    }
+    .navLogin{
+        position: absolute;
+        top: 2rem;right: 8rem; 
+    }
+    .navCart{
+        position: absolute;
+        top: 1.6rem;right: 10rem; 
+         
+    }
+    .navHeart{
+        position: absolute;
+        top: 1.6rem;right: 19rem !important; 
+         
+    }
+    
+}
+
+@media only screen and (max-width:920px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: rgb(245, 91, 91);
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1000;
+
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn{
+      position: absolute;
+      top: 2rem;right: 2rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    .text{
+        top: 30px;
+    }
+    .text:hover{
+        /* border: 1px solid #3586ff; */
+        padding: 1vmax;
+        border-radius: 20px;
+        background-color: tomato;
+    }
+    .navSerch{
+        position: absolute;
+        top: 2.1rem;right: 5rem;
+    }
+    .navLogin{
+        position: absolute;
+        top: 2rem;right: 8rem; 
+    }
+    .navCart{
+        position: absolute;
+        top: 1.6rem;right: 10rem; 
+         
+    }
+    .navHeart{
+        position: absolute;
+        top: 1.6rem;right: 17rem; 
+         
+    }
+    
+}
+@media only screen and (max-width:280px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: rgb(245, 91, 91);
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1000;
+
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn{
+      position: absolute;
+      top: 2rem;right: 2rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    .text{
+        top: 30px;
+    }
+    .text:hover{
+        /* border: 1px solid #3586ff; */
+        padding: 1vmax;
+        border-radius: 20px;
+        background-color: tomato;
+    }
+    .navSerch{
+        position: absolute;
+        top: 2.1rem;right: 3rem;
+    }
+    .navLogin{
+        position: absolute;
+        top: 2rem;right: 4rem; 
+    }
+    .navCart{
+        position: absolute;
+        top: 1.6rem;right: 5rem; 
+         
+    }
+    .navHeart{
+        position: absolute;
+        top: 1.6rem;right: 11.5rem; 
+         
+    }
+    
+}
+

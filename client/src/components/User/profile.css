@@ -1,0 +1,135 @@
+.profileContainer{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    max-width: 100%;
+    /* position: fixed; */
+    top: 0%;
+    left: 0%;
+    background:white;
+}
+.profileContainer > div{
+    display: flex;
+    height: 85vh;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#myprofile{
+  position: relative;
+  top:1.5rem;
+  
+  text-align: center;
+color: tomato;
+font :500 2.2vmax;
+transform: translateX(-10vmax) translateY(-2vmax);
+}
+.profileContainer > div:first-child>img{
+    width: 20vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.profileContainer > div:first-child>img:hover{
+    transform: scale(1.05);
+}
+.profileContainer>div:first-child>a{
+    border: none;
+    background-color: #cc2bcc;
+    color: white;
+    font: 400 1vmax cursive;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 4vmax;
+    width: 30%;
+    padding: 0.5vmax;
+    text-decoration: none;
+}
+.profileContainer>div:first-child>a:hover{
+  background-image: linear-gradient(to right, #cc2b5e, #753a88);
+}
+.profileContainer>div:last-child{
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 5vmax;
+    align-items: start;
+}
+.profileContainer > div:last-child >div >h4{
+    color: white;
+    font: 400 1.2vmax cursive;
+}
+.profileContainer > div:last-child>div > p{
+    color: tomato;
+    font: 400 1vmax cursive;
+    margin: 0.2vmax;
+    text-shadow: 0 0 30px #ff005b;
+
+}
+.profileContainer > div:last-child> div:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.profileContainer > div:last-child >div:last-child>a{
+    border: none;
+    background-color: #cc2bcc;
+    padding: 0.5vmax;
+    text-align: center;
+    font: 400 1vmax cursive;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    text-align: center;
+    transition: alll 0.5s;
+    margin: 1vmax 0;
+}
+
+.profileContainer > div:last-child >div:last-child>a:hover{
+  background-image: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+@media screen and (max-width: 800px) {
+    .profileContainer {
+      flex-direction: column;
+    }
+  
+    .profileContainer > div:first-child > h1 {
+      font: 500 3.2vmax "Roboto";
+      transform: translateY(-2vmax);
+    }
+  
+    .profileContainer > div:first-child > a {
+      font: 400 1.7vmax "Roboto";
+      padding: 1vmax;
+    }
+  
+    .profileContainer > div:last-child {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .profileContainer > div:last-child > div > h4 {
+      font: 400 2.5vmax "Roboto";
+    }
+  
+    .profileContainer > div:last-child > div > p {
+      font: 400 2vmax cursive;
+      margin: 0.5vmax 0;
+    }
+  
+    .profileContainer > div:last-child > div:last-child > a {
+      font: 400 1.8vmax "Roboto";
+      padding: 1vmax;
+      margin: 2vmax 0;
+    }
+    #myprofile{
+      margin-top: 1rem;
+      color: tomato;
+      font :500 2.2vmax;
+      transform: translateX(-10vmax) translateY(-2vmax);
+      }
+  }

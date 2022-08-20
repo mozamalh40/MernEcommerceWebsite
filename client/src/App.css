@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    cursor: url("./images/cursor.png"), auto;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .greenColor {
+    color: green !important;
+  }
+  .redColor {
+    color: red !important;
+  }
+
+
+
+  ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 59px;
+    height: 59px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c2477c;
+    border: 2px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b12f95;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #ed50d8;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #eeebef;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #ec74c6;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
